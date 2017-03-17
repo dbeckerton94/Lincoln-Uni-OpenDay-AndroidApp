@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#747678"
+    android:id="@+id/meallayout1">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cityname"
+        android:layout_x="328dp"
+        android:layout_y="62dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading Weather, Please Wait"
+        android:id="@+id/textweather"
+        android:layout_x="0dp"
+        android:layout_y="236dp"
+        android:textColor="#48f210" />
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:id="@+id/imageView6"
+        android:layout_x="99dp"
+        android:layout_y="0dp"
+        android:background="@drawable/logo" />
+
+    <Button
+        android:layout_width="345dp"
+        android:layout_height="108dp"
+        android:text="On Campus Building Finder"
+        android:id="@+id/findbuild"
+        android:layout_x="2dp"
+        android:layout_y="331dp"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the University of Lincoln Open Day"
+        android:id="@+id/textView14"
+        android:layout_x="12dp"
+        android:layout_y="177dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check the Weather Before you set off to be better prepared "
+        android:id="@+id/textView16"
+        android:layout_x="0dp"
+        android:layout_y="203dp" />
+
+    <Button
+        android:layout_width="345dp"
+        android:layout_height="108dp"
+        android:text="Open Day Parking"
+        android:id="@+id/parkbutton"
+        android:layout_x="0dp"
+        android:layout_y="430dp"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/colourb"
+        android:layout_x="268dp"
+        android:layout_y="33dp"
+        android:visibility="invisible" />
+
+</AbsoluteLayout>

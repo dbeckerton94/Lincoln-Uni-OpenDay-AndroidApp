@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.computing.lincolnopenday.forgot"
+    android:background="#747678">
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:id="@+id/imageView9"
+        android:layout_x="75dp"
+        android:layout_y="-2dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If you have lost/forgot either your username and password please email &apos;helpdesk@lincoln.ac.uk&apos; with your email and name"
+        android:id="@+id/textView19"
+        android:layout_x="9dp"
+        android:layout_y="184dp" />
+
+</AbsoluteLayout>

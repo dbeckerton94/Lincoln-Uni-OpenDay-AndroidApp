@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:padding="10dip"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+    android:background="#747678"
+    android:id="@+id/meallayout1">
+
+    <Spinner
+    android:id="@+id/spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="58dp"
+    android:prompt="@string/spinner_title"
+        android:layout_x="-5dp"
+        android:layout_y="199dp" />
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:id="@+id/imageView5"
+        android:layout_x="100dp"
+        android:layout_y="0dp"
+        android:background="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:id="@+id/accomimage"
+        android:layout_x="0dp"
+        android:layout_y="263dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/accomname"
+        android:layout_x="190dp"
+        android:layout_y="260dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please choose a type of Accomodation"
+        android:id="@+id/textView13"
+        android:layout_x="4dp"
+        android:layout_y="173dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit Website"
+        android:id="@+id/accomsite"
+        android:layout_x="12dp"
+        android:layout_y="485dp"
+        android:onClick="onButtonClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locate Accomodation"
+        android:id="@+id/button2"
+        android:layout_x="149dp"
+        android:layout_y="485dp"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="227dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/accomdesc"
+        android:layout_x="190dp"
+        android:layout_y="293dp"
+        android:width="204dp"
+        android:textSize="11dp"
+        android:onClick="onButtonClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/buttonans"
+        android:layout_x="32dp"
+        android:layout_y="3dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/colourb"
+        android:layout_x="272dp"
+        android:layout_y="31dp"
+        android:visibility="invisible" />
+
+</AbsoluteLayout>
+
+
+

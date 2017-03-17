@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lincoln Open Day</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mainmenu">Mainmenu</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_accomodation">Accomodation</string>
+    <string name="title_activity_twitter_search">twitterSearch</string>
+    <string name="title_activity_openday">Openday</string>
+    <string name="title_activity_news_page">NewsPage</string>
+    <string name="spinner_title" />
+    <string name="scan">Scan</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_twitter_feed">TwitterFeedActivity</string>
+    <string name="title_activity_forgot">Forgot</string>
+
+</resources>
